@@ -6,10 +6,12 @@ import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 
 import usersReducer from "./features/Users";
+import incrementReducer from "./features/Increment"
 
 const store = configureStore({
   reducer: {
     users: usersReducer,
+    increment: incrementReducer,
   },
 });
 
