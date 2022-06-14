@@ -11,7 +11,7 @@ import incrementReducer from "./features/Increment"
 const store = configureStore({
   reducer: {
     users: usersReducer,
-    increment: incrementReducer,
+    increment: incrementReducer,           //changeName  Reducers             
   },
 });
 
